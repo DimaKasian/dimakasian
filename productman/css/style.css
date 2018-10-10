@@ -296,7 +296,7 @@ h2, p {
 	padding: 0;
 	margin-right: -4px;
 }
-.email__button {
+.form .email__button {
 	height: 68px;
 	border: none;
 	width: 210px;
@@ -307,7 +307,8 @@ h2, p {
 	text-transform: uppercase;
 	color: #fff;
 	font-family: "Roboto", sans-serif;
-	font-weight: 900;-
+	font-weight: 900;
+	text-align: center;
 }
 .email__form {
 	background-image: url("../img/icons8.png");
