@@ -309,7 +309,7 @@ h2, p {
 	font-family: "Roboto", sans-serif;
 	font-weight: 900;
 }
-.email__form::placeholder {
+.email__form {
 	background-image: url("../img/icons8.png");
 	background-repeat: no-repeat;
 	background-position: 5% 50%;
