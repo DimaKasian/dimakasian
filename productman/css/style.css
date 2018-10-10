@@ -314,6 +314,7 @@ h2, p {
 	background-size: 7px;
     background-position-x: 150px;
     background-position-y: 26px;
+    cursor: pointer;
 }
 
 .email__form {
