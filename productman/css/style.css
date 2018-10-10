@@ -307,7 +307,7 @@ h2, p {
 	text-transform: uppercase;
 	color: #fff;
 	font-family: "Roboto", sans-serif;
-	font-weight: 900;
+	font-weight: 900;-
 }
 .email__form {
 	background-image: url("../img/icons8.png");
@@ -316,7 +316,7 @@ h2, p {
 	font-family: "Raleway", sans-serif;
 	font-style: italic;
 	font-size: 22px;
-	font-weight: 600;
+	font-weight: 300;
 }
 .form input {
 	padding: 0 0 0 8%;
