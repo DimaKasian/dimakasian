@@ -296,7 +296,7 @@ h2, p {
 	padding: 0;
 	margin-right: -4px;
 }
-.email__button {
+.form .email__button {
 	height: 68px;
 	border: none;
 	width: 210px;
@@ -308,15 +308,24 @@ h2, p {
 	color: #fff;
 	font-family: "Roboto", sans-serif;
 	font-weight: 900;
+	text-align: center;
+	background-image: url("../img/bullet-arrow-right.png");
+	background-repeat: no-repeat;
+	background-size: 7px;
+    background-position-x: 150px;
+    background-position-y: 26px;
+    cursor: pointer;
 }
-.email__form::placeholder {
+
+.email__form {
 	background-image: url("../img/icons8.png");
 	background-repeat: no-repeat;
 	background-position: 5% 50%;
 	font-family: "Raleway", sans-serif;
 	font-style: italic;
 	font-size: 22px;
-	font-weight: 600;
+	font-weight: 300;
+	background-size: 29px;
 }
 .form input {
 	padding: 0 0 0 8%;
@@ -332,8 +341,7 @@ h2, p {
 }
 .footer_main li {
 	display: inline-block;
-	margin:0 20px 0 0;
-	padding:0 0 0 0;
+	padding: 100px 0;
 }
 .footer_a {
 	display: block;
@@ -382,7 +390,7 @@ h2, p {
 	color: #979797;
 	text-transform: capitalize;
 	font-size: 18px;
-	padding-top: 24px;
+	margin-top: 24px;
 	font-family: "Raleway", sans-serif;
 }
 .copyright span {
