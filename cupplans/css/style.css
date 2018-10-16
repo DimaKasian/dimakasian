@@ -32,11 +32,18 @@ h3, h1, h2 {
 	margin:0;
 	padding: 0;
 }
-
+h2, h3 {
+	display: flex;
+	align-items: flex-end;
+}
 .bronz_p, .gold_p, .silver_p {
 	font-size: 20px;
 	display: flex;
 	align-items: center;
+}
+.gold_p {
+	display: flex;
+	align-items: flex-start;
 }
 body {
 	background-color: #fdde7e;
@@ -87,7 +94,7 @@ div.img {
 }
 .bronze_h3, .gold_h1, .silver_h2{
 	display: flex;
-	align-items: flex-end;
+	align-items: center;
 	flex-grow: 1;
 }
 .bronz_p, .gold_p, .silver_p {
