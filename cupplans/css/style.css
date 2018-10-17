@@ -42,7 +42,7 @@ h2, h3 {
 	display: flex;
 	align-items: flex-start;
 	flex-grow: 3;
-
+	font-family: 'Lato', sans-serif;
 
 }
 .gold_p {
@@ -83,7 +83,8 @@ body {
 	align-items: center;
 }
 .gold_big .img {
-	align-items: flex-end;
+	align-items: center;
+    padding-top: 17px;
 }
 p {
 	width: 186px;
@@ -104,7 +105,7 @@ div.img {
 }
 .bronze_h3, .gold_h1, .silver_h2{
 	display: flex;
-	align-items: baseline;
+	align-items: center;
 	flex-grow: 2;
 }
 .bronz_p, .gold_p, .silver_p {
