@@ -42,7 +42,7 @@ h2, h3 {
 	display: flex;
 	align-items: flex-start;
 	flex-grow: 3;
-	font-family: 'Lato', sans-serif;
+
 
 }
 .gold_p {
@@ -81,6 +81,9 @@ body {
 }
 .gold_big .gold_h1 {
 	align-items: center;
+}
+.gold_big .img {
+	align-items: flex-end;
 }
 p {
 	width: 186px;
