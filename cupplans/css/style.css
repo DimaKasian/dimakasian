@@ -80,11 +80,15 @@ body {
 	min-height: 500px;
 }
 .gold_big .gold_h1 {
-	align-items: center;
+	align-items: flex-start;
+	flex-grow: 1;
 }
 .gold_big .img {
-	align-items: center;
-    padding-top: 17px;
+	/*align-items: center;*/
+    flex-grow: 4;
+}
+.gold_big .gold_dollar {
+	align-items: flex-end;
 }
 p {
 	width: 186px;
