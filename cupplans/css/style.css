@@ -39,7 +39,9 @@ h2, h3 {
 .bronz_p, .gold_p, .silver_p {
 	font-size: 20px;
 	display: flex;
-	align-items: center;
+	align-items: flex-start;
+	flex-grow: 3;
+
 }
 .gold_p {
 	display: flex;
@@ -75,29 +77,32 @@ body {
 .gold_big {
 	min-height: 500px;
 }
+.gold_big .gold_h1 {
+	align-items: center;
+}
 p {
 	width: 150px;
 	text-align: center;
 }
 div.img {
 	display: flex;
-	align-items: flex-end;
+	align-items: center;
 }
 
 .bronz_dollar,  .gold_dollar, .silver_dollar {
 	
-	flex-grow: 1;
+	flex-grow: 2;
 }
 .img {
 	
-	flex-grow: 1;
+	flex-grow: 2;
 }
 .bronze_h3, .gold_h1, .silver_h2{
 	display: flex;
-	align-items: center;
-	flex-grow: 1;
+	align-items: baseline;
+	flex-grow: 2;
 }
 .bronz_p, .gold_p, .silver_p {
 	
-	flex-grow: 1;
+	
 }
