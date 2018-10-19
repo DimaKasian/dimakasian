@@ -8,15 +8,18 @@
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
+	padding: 15px;
 }
 .row {
 	margin: 0 -15px 30px;
-    clear: both;
 }
-
 [class^="col-"] {
 	float: left;
-    padding: 0 15px
+    padding: 0 15px;
+    font-size: 0;
+}
+.row2 {
+	margin: 0 -15px;
 }
 
 img {
@@ -31,4 +34,7 @@ img {
 
 .cf:after {
     clear: both;
+}
+.row:last-child {
+	margin: 0 -15px;
 }
