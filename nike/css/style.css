@@ -1,0 +1,52 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: red;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+
+}
+.container {
+	width: 800px;
+	height: 600px;
+	margin: 0 auto;
+	background-color: #b3b3b7;
+	background-image: url("../img/Layer_5.png");
+	background-position: -429px -604px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.main-container {
+	width: 685px;
+	height: 390px;
+	background-color: #111a28;
+}
+a {
+	display: block;
+}
+a > img {
+	height: 35px;
+	width: 65px;
+}
+header {
+	padding: 28px 0 0 23px;
+}
+.photo {
+	float: left;
+	text-align: center;
+	width: 50%;
+}
+img {
+	text-align: center;
+}
+.text	{
+	float: right;
+	width: 50%;
+	text-align:left;
+}
