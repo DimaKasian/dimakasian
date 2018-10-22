@@ -1,10 +1,16 @@
-* {
+@font-face {
+	font-family: Museo;
+	src:url("../fonts/MuseoSansRounded-100.otf");
+}
+
+*, h1 {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
+
 body {
-	background-color: red;
+	background-color: #b3b3b7;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -21,11 +27,22 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	
 }
 .main-container {
 	width: 685px;
 	height: 390px;
 	background-color: #111a28;
+	padding: 20px;
+}
+.cf:before,
+.cf:after {
+    content: " "; 
+    display: table; 
+}
+
+.cf:after {
+    clear: both;
 }
 a {
 	display: block;
@@ -34,19 +51,28 @@ a > img {
 	height: 35px;
 	width: 65px;
 }
-header {
-	padding: 28px 0 0 23px;
-}
-.photo {
+.main {
+	max-width: 50%;
 	float: left;
-	text-align: center;
-	width: 50%;
+	font-family: "Museo";
+
 }
-img {
-	text-align: center;
+.info {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.h1 {
+	color: #fff;
+}
+.p {
+	color: #e1e1e1;
+}
+
+.logo {
+	margin-bottom: 65px;
 }
 .text	{
+	max-width: 50%;
 	float: right;
-	width: 50%;
-	text-align:left;
 }
