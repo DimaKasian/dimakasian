@@ -33,7 +33,6 @@ body {
 	width: 685px;
 	height: 390px;
 	background-color: #111a28;
-	padding: 20px;
 }
 .cf:before,
 .cf:after {
@@ -47,32 +46,42 @@ body {
 a {
 	display: block;
 }
+a.logo {
+	margin-bottom: 50px;
+}
 a > img {
 	height: 35px;
 	width: 65px;
 }
-.main {
-	max-width: 50%;
+.main-photo {
+	padding: 20px;
+	max-width: 65%;
 	float: left;
-	font-family: "Museo";
-
 }
-.info {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-.h1 {
-	color: #fff;
-}
-.p {
-	color: #e1e1e1;
-}
-
-.logo {
-	margin-bottom: 65px;
-}
-.text	{
-	max-width: 50%;
+.main-text {
 	float: right;
+	max-width: 35%
+}
+.photo {
+	padding-left: 16px;
+}
+.sliders {
+	list-style: none;
+	display: inline-block;
+}
+.sliders li {
+	display: inline-block;
+}
+.grey {
+	border: 7px solid #1f273f;
+    border-radius: 50%;
+}
+.active {
+	border: 9px solid;
+    border-radius: 50%;
+    border-color: #7c8189;
+}
+.white {
+	border: 7px solid #1f273f;
+    border-radius: 50%;
 }
