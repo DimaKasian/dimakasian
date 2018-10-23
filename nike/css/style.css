@@ -122,7 +122,7 @@ a > img {
 }
 .h1 {
 	font-size: 12px;
-	padding-bottom: 5px;
+	margin-bottom: 5px;
 }
 .p {
 	color: #5e646d;
@@ -141,8 +141,6 @@ a > img {
 }
 .size {
 	display: inline-block;
-	cursor: pointer;
-	background: #111a28;
 	cursor: pointer;
 	background: #111a28;
 	color: #5e646d;
@@ -171,6 +169,38 @@ button:hover {
 	background-color: rgba(255, 255, 255, 0.1)
 }
 
-
+#sizeid, #qtyid {
+	background: none;
+	border: 1px solid #9da1a6;
+	text-transform: capitalize;
+	padding: 10px;
+	width: 100%;
+	position: relative;
+	z-index: 1;
+	cursor: pointer;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+.option_label {
+	position: relative;
+	width: 70px;
+	display: inline-block;
+}
+.option_label:after {
+	content: "";
+	display: block;
+	width: 5px;
+	height: 5px;
+	border: 1px solid transparent;
+	border-left-color: #9da1a6;
+	border-bottom-color: #9da1a6;
+	position: absolute;
+	z-index: 0;
+	transform: rotate(-45deg);
+	cursor: pointer;
+	top: 17px;
+    left: 50px;
+}
 
 
