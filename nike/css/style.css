@@ -38,6 +38,8 @@ body {
 	width: 685px;
 	height: 390px;
 	background-color: #111a28;
+	border-radius: 11px;
+	box-shadow: 2px 2px 39px 7px rgba(0,0,0,0.4);
 }
 .cf:before,
 .cf:after {
