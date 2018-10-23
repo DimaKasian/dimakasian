@@ -1,6 +1,11 @@
 @font-face {
-	font-family: Museo;
-	src:url("../fonts/MuseoSansRounded-100.otf");
+font-family: 'Museo Sans 100 Thin';
+src: url('../fonts/MuseoSansCyrl-100.eot');
+src: url('../fonts/MuseoSansCyrl-100.eot?#iefix') format('embedded-opentype'),
+url('../fonts/MuseoSansCyrl-100.woff') format('woff'),
+url('../fonts/MuseoSansCyrl-100.ttf') format('truetype');
+/*font-weight: normal;
+font-style: 100;*/
 }
 
 *, h1 {
@@ -57,31 +62,109 @@ a > img {
 	padding: 20px;
 	max-width: 65%;
 	float: left;
+
 }
-.main-text {
-	float: right;
-	max-width: 35%
-}
+
 .photo {
 	padding-left: 16px;
+	margin-bottom: 18%;
 }
 .sliders {
 	list-style: none;
-	display: inline-block;
+	text-align: center;
 }
 .sliders li {
 	display: inline-block;
+	vertical-align: middle;
 }
 .grey {
-	border: 7px solid #1f273f;
+	background-color: #1f273f;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
 }
 .active {
-	border: 9px solid;
-    border-radius: 50%;
+
+	border: 2px solid;
     border-color: #7c8189;
 }
 .white {
-	border: 7px solid #1f273f;
+	  background-color: #fff;
+    width: 10px;
+    height: 10px;
     border-radius: 50%;
+}
+.red {
+    background-color: #ed3333;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.blue {
+    background-color: #29e3ea;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.main-text {
+	text-align: left;
+	color: #fff;
+	padding: 75px 47px 75px 0;
+	font-family: 'Museo Sans 100 Thin';
+	float: right;
+	max-width: 35%;
+}
+.size, .qty, .button {
+	color: #5e646d;
+	font-family: 'Museo Sans 100 Thin';
+}
+.h1 {
+	font-size: 12px;
+	padding-bottom: 5px;
+}
+.p {
+	color: #5e646d;
+	margin-bottom: 22px;
+}
+.raiting li {
+	display: inline-block;
+	margin: -2px;
+}
+.raiting img {
+	width: 13px;
+	height: 13px;
+}
+.raiting {
+	margin-bottom: 22px;
+}
+.size {
+	display: inline-block;
+	cursor: pointer;
+	background: #111a28;
+	cursor: pointer;
+	background: #111a28;
+	color: #5e646d;
+}
+.qty {
+	display: inline-block;
+	cursor: pointer;
+}
+#sizeid, #qtyid {
+	cursor: pointer;
+	background: #111a28;
+	color: #5e646d;
+	padding: 7px 7px;
+}
+.choose {
+	margin-bottom: 26px;
+}
+button {
+	cursor: pointer;
+	width: 96%;
+	background-color: #111a28;
+	border: 1px solid #adafb3;
+	padding: 10px;
+}
+button:hover {
+	background-color: rgba(255, 255, 255, 0.1)
 }
