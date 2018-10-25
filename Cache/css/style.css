@@ -16,9 +16,23 @@
 	margin: auto;
 */
 @media (min-width: 1200px) {
-.container {    max-width: 1200px;
-
+		.container {    max-width: 1200px;
+	}
 }
+@media (min-width: 960px) {
+	.grey {background-image: url("../img/grey.png");
+	width: 100%;
+	background-position: 50%;
+	}
+}
+
+@media (min-width: 960px) {
+	.grey {background-image: url("../img/grey.png");
+	width: 100%;
+	background-position: 60% 40%;
+	}
+}
+
 .grey {
 	background-image: url("../img/grey.png");
 	width: 100%;
