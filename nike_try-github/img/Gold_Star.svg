@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" width="12" height="12">
+	<defs>
+		<image width="12" height="12" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAMAAABhq6zVAAAAAXNSR0IB2cksfwAAAEVQTFRFAAAA978W978W978W978W978W978W978W978W978W978W978W978W978W978W978W978W978W978W978W978W978W978WxspkIQAAABd0Uk5TADiUBOpJ/1pwwRoDh5rOFP6bWPVfdSy3HhhoAAAAVUlEQVR4nEWLVw7AIAzFHhTCXmXc/6hlVK0/EltKgAVj+OH890uI6wtJJLcorbUhMnMp2GkHYwHnj3u3L8Py8P7HFfF4ylQK5bTjrg1o9d7Rx5qjAw+XvALJsfNFbgAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Vector Smart Object" href="#img1" transform="matrix(1,0,0,1,0,0)"/>
+</svg>
