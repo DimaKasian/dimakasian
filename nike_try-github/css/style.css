@@ -1,9 +1,9 @@
 @font-face {
-font-family: 'Museo Sans 100 Thin';
-src: url('../fonts/MuseoSansCyrl-100.eot');
-src: url('../fonts/MuseoSansCyrl-100.eot?#iefix') format('embedded-opentype'),
-url('../fonts/MuseoSansCyrl-100.woff') format('woff'),
-url('../fonts/MuseoSansCyrl-100.ttf') format('truetype');
+	font-family: 'Museo Sans 100 Thin';
+	src: url('../fonts/MuseoSansCyrl-100.eot');
+	src: url('../fonts/MuseoSansCyrl-100.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/MuseoSansCyrl-100.woff') format('woff'),
+	url('../fonts/MuseoSansCyrl-100.ttf') format('truetype');
 /*font-weight: normal;
 font-style: 100;*/
 }
@@ -43,12 +43,12 @@ body {
 }
 .cf:before,
 .cf:after {
-    content: " "; 
-    display: table; 
+	content: " "; 
+	display: table; 
 }
 
 .cf:after {
-    clear: both;
+	clear: both;
 }
 
 .logo_a {
@@ -72,26 +72,26 @@ a > img {
 }
 .photo {
 	display: flex;
-    align-content: center;
-    height: 100%;
-    width: 100%;
-    justify-content: center;
-    flex-direction: column;
+	align-content: center;
+	height: 100%;
+	width: 100%;
+	justify-content: center;
+	flex-direction: column;
 }
 
 .main-text {
 	text-align: left;
-    color: #fff;
-    font-family: 'Museo Sans 100 Thin';
-    max-width: 40%;
-    display: flex;
-    height: 100%;
-    padding-top: 70px;
-    padding-bottom: 52px;
-    padding-right: 45px;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: flex-start;
+	color: #fff;
+	font-family: 'Museo Sans 100 Thin';
+	max-width: 40%;
+	display: flex;
+	height: 100%;
+	padding-top: 70px;
+	padding-bottom: 52px;
+	padding-right: 45px;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: flex-start;
 }
 .raiting {
 	list-style: none;
@@ -170,7 +170,7 @@ button:hover {
 	transform: rotate(-45deg);
 	cursor: pointer;
 	top: 17px;
-    left: 50px;
+	left: 50px;
 }
 
 
@@ -215,39 +215,39 @@ button:hover {
 }
 .grey {
 	background: #1f273f;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
 }
 .active {
 	border: 2px solid;
-    border-color: #7c8189;
+	border-color: #7c8189;
 }
 .white  {
 	background: #fff;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
 }
 .red  {
-    background: #ed3333;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
+	background: #ed3333;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
 }
 .blue{
-    background: #29e3ea;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
+	background: #29e3ea;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
 }
 .sliders a {
 	width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    display: block;
+	height: 10px;
+	border-radius: 50%;
+	display: block;
 }
- 
+
 
 
 
