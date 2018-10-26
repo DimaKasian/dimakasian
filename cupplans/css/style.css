@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400');
+
+
+@font-face {
+	font-family:"miso";
+	src:url("../fonts/miso.otf");
+}
+@font-face {
+	font-family:"miso-bold";
+	src:url("../fonts/miso-bold.otf"miso-light.otf);
+}
+@font-face {
+	font-family:"miso-light";
+	src:url("../fonts/miso-light.otf");
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.silver_dollar, .gold_dollar, .bronz_dollar {
+	font-size: 70px;
+	color: #02995b;
+	font-family: "miso-bold" san-serif;
+	font-weight: 800;
+	display: flex;
+	align-items: flex-end;
+}
+h3, h1, h2 {
+	font-size: 56px;
+	margin:0;
+	padding: 0;
+	font-weight: 400;
+}
+h2, h3 {
+	display: flex;
+	align-items: flex-end;
+}
+.bronz_p, .gold_p, .silver_p {
+	font-size: 20px;
+	display: flex;
+	align-items: flex-start;
+	flex-grow: 3;
+	font-family: 'Lato', sans-serif;
+
+}
+.gold_p {
+	display: flex;
+	align-items: flex-start;
+}
+body {
+	background-color: #fdde7e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:100vmin;
+    font-family: "miso";
+ }
+.main {
+	width: 1140px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.bronz, .silver, .gold{
+	width: 360px;
+	height: 444px;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.gold_big {
+	min-height: 500px;
+}
+.gold_big .gold_h1 {
+	align-items: flex-start;
+	flex-grow: 1;
+}
+.gold_big .img {
+	/*align-items: center;*/
+    flex-grow: 4;
+}
+.gold_big .gold_dollar {
+	align-items: flex-end;
+}
+p {
+	width: 186px;
+	text-align: center;
+}
+div.img {
+	display: flex;
+	align-items: center;
+}
+
+.bronz_dollar,  .gold_dollar, .silver_dollar {
+	
+	flex-grow: 2;
+}
+.img {
+	
+	flex-grow: 2;
+}
+.bronze_h3, .gold_h1, .silver_h2{
+	display: flex;
+	align-items: center;
+	flex-grow: 2;
+}
+.bronz_p, .gold_p, .silver_p {
+	
+	
+}
