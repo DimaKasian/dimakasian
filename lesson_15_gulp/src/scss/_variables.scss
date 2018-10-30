@@ -1,9 +1,8 @@
-$dark_color: #3c3c3c; 
+$dark-color: #3c3c3c;
+$white-color: #fff;
 
-$white_color: #fff;
-
-$main_color: $dark_color;
-$secondary_color: $white_color;
+$main_color: $dark-color;
+$secondary_color: $white-color;
 
 $main_font: 'Lato', sans-serif;
 
@@ -14,3 +13,5 @@ $heading_size_h3: 20px;
 $text_lg: 16px;
 $text_md: 15px;
 $text_sm: 14px;
+
+$img_path: '../img/';
