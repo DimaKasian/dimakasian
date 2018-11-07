@@ -1,0 +1,123 @@
+.first-scrn {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	background-color: f9f8fb;
+	background-image: url("../img/first.png");
+	background-position: 50%;
+	height: 100vh;
+
+
+	& > .container {
+		height: 100vh;
+	}
+	
+
+	&__a {
+		display: block;
+	}
+
+	&__ul {
+		list-style: none;
+		display: flex;
+		justify-content: flex-end;
+		align-self: flex-center;
+		margin-bottom: 0;
+	}
+
+	&__li {
+		
+		text-transform: uppercase;
+	}
+
+	&__header-a {
+		color: $dark-color;
+		
+		font-weight: bold;
+
+		&:hover {
+			color: $orange_scrn;
+			text-decoration: none;
+		}
+	}
+	
+	&__logo {
+		background: url("../img/logo.png");
+		background-repeat: no-repeat;
+		width: 126px;
+		height: 52px;
+		display: inline-block;
+		&:hover {
+			background: url("../img/logo_hover.png");
+			background-repeat: no-repeat;
+		}
+	}
+
+	&__menu {
+		padding-top: 30px;
+		
+	}
+
+	&__header {
+
+		min-height: 145px;
+		position: fixed;
+		top: 0;
+		width: 100%;
+
+	}
+
+	&__h1 > h1 {
+		font-weight: 900;
+		font-family: "Raleway";
+		font-size: 60px;
+		text-transform: capitalize;
+	}
+
+
+	&__p {
+		font-family: "Raleway";
+		font-size: 17px;
+		margin-bottom: 35px;
+		line-height: 30px;
+	}
+	
+	&__btn > * {
+		color: $white-color;
+		background-color: $orange_scrn;
+		border: none;
+		display: inline-block;
+		width: 100%;
+		cursor: pointer;
+		box-shadow: 0px 5px 5px 2px rgba(0,0,0,0.58);
+		font-size: 22px;
+		padding: 15px 0;
+		min-width: 200px;
+	}
+
+	&__scroll {
+		text-align: center;
+	}
+
+	&__link {
+		background-image: url("../img/scroll.png");
+		width: 25px;
+		height: 40px;
+		display: inline-block;
+		position: absolute;
+		bottom: 40px;
+
+		&:hover {
+			background-image: url("../img/scroll_hover.png");
+		}
+	}
+}
+
+.fresh {
+	display: flex;
+	align-items: center;
+	height: 100vh;
+
+
+}
+
