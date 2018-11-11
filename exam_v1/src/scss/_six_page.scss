@@ -1,0 +1,56 @@
+.tourist {
+	background-image: url("../img/testimonials-bg.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: $main-color;
+	display: flex;
+	align-items: center;
+	font-family: $main-font;
+	min-height: 720px;
+	
+
+
+	&__h4 {
+		display: flex;
+		justify-content: center;
+		padding-bottom: 10%;
+	}
+
+	&__h4 > h4 {
+		
+		font-size: 36px;
+
+		
+	}
+	&__bg {
+		display: flex;
+		background-color: $dark-grey-color;
+	}
+
+	&__h5 {
+		display: flex;
+		height: 100%;
+		flex-direction: column;
+		justify-content: center;
+
+	}
+	&__h5 > h5 {
+		text-transform: capitalize;
+		margin-bottom: 20px;
+	}
+	
+	&__p > p {
+		font-family: $secondary-font;
+		font-size: 16px;
+	}
+	
+	
+}
+
+#Capa_1 {
+	max-height: 17px;
+	max-width: 18px;
+	position: relative;
+	top: -10px;
+	transform: rotateZ(180deg);
+}

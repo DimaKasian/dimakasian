@@ -1,0 +1,39 @@
+.we-are {
+	min-height: 80px;
+	background-color: $light-blue-color;
+	display: flex;
+	align-items: center;
+
+
+	&__h2 {
+		color: $main-color;
+		text-transform: uppercase;
+		font-family: $secondary-font;
+		font-size: 24px;
+		margin-bottom: 0;
+	}
+
+	&__menu{ 
+	margin-bottom: 0px; }
+
+	&__a {
+		color: $main-color;
+		text-transform: uppercase;
+		font-size: 14px;
+		font-family: $main-font;
+		margin-right: 15px;
+		cursor: pointer;
+		display: inline-block;
+	
+		&:hover {
+			color: $main-color;
+			text-decoration: none;
+		}
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+
+}
+

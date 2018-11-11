@@ -1,0 +1,53 @@
+.choose-us {
+	min-height: 680px;
+	background-image: url("../img/choose-bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	color: $main-color;
+
+
+
+	&__h3 {
+		font-family: $main-font;
+		text-transform: capitalize;
+		font-size: 36px;
+		margin-bottom: 60px;
+		
+	}
+
+
+
+
+	&__button > * {
+
+		color: #ffffff;
+		text-transform: uppercase;
+		border: none;
+		padding: 15px 0;
+		background: #ff6033;
+		min-width: 225px;
+		cursor: pointer;
+		font-size: 16px;
+		transition: background .3s ease;
+		background: linear-gradient(50deg, rgba(73,106,254,1) 0%, rgba(73,107,254,1) 36%, rgba(73,106,254,1) 38%, rgba(84,115,253,1) 38%, rgba(84,115,253,1) 100%);
+	}
+	&__p {
+		font-family: $secondary-font;
+		margin-bottom: 45px;
+	}
+	
+	&__first-img {
+		display: flex;
+		justify-content: center;
+		margin-bottom: 5px;
+	}
+
+	&__second-img {
+		display: flex;
+		justify-content: flex-end;
+	}
+	
+
+}

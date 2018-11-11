@@ -1,0 +1,35 @@
+.safe {
+	min-height: 260px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	background-color: $dark-grey-color;
+	color: $main-color;
+
+	&__h5 {
+		margin-bottom: 30px;
+	}
+	
+	&__h5 > h5 {
+		font-family: $main-font;
+		font-size: 36px;
+		text-transform: uppercase;
+		margin-bottom: 10px;
+	}
+	&__h5 > h6 {
+		font-family: $secondary-font;
+		font-size: 16px;
+		text-transform: capitalize;
+	}
+
+}
+
+.fab {
+	color: $light-grey-color;
+}
+
+.fab:hover {
+	color: $light-blue-color;
+
+}

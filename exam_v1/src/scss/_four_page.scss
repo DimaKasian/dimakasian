@@ -1,0 +1,46 @@
+.spain-first {
+	min-height: 700px;
+	background-image: url("../img/house.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: $main-color;
+	display: flex;
+	align-items: center;
+	font-family: $secondary-font;
+
+	&__bg {
+		background-color: rgba(0, 0, 0, 0.7);
+		min-width: 520px;
+		min-height: 320px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		border-radius: 10px;
+		padding: 43px 16px;
+	}
+
+	&__h4 > h4 {
+		text-transform: capitalize;
+		font-size: 20px;
+	}
+	&__h4 > h5 {
+		text-transform: uppercase;
+		font-size: 20px;
+	}
+	
+	&__button > button {
+		color: #ffffff;
+		font-family: $main-font;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		border: none;
+		padding: 15px 0;
+		background: #ff6033;
+		min-width: 225px;
+		cursor: pointer;
+		font-size: 16px;
+		transition: background .3s ease;
+		background: linear-gradient(50deg, #496afe 0%, #496bfe 36%, #496afe 38%, #5473fd 38%, #5473fd 100%);
+	}
+
+}
