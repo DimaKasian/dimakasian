@@ -1,0 +1,31 @@
+ul {
+	padding: 0;
+	margin: 0;
+
+	li {
+		list-style: none;
+
+		a {
+			display: block;
+		}
+	}
+}
+
+a {
+	color: $white-color;
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: none;
+		color: $purpur;
+	}
+}
+
+@font-face {
+	font-family: Proxima;
+	src: url("../fonts/Proxima Nova Condensed Bold.otf");
+}
+@font-face {
+	font-family: ProximaSemi;
+	src: url("../fonts/Proxima Nova Condensed SemiBold.otf");
+}

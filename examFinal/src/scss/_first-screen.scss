@@ -1,0 +1,24 @@
+.first-screen {
+	padding-top: 35px;
+	min-height: 100vh;
+	max-height: 100vh;
+	background-image: url($img-path + 'DeathtoStock_Wired7.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	&__navbar {
+		display: flex;
+		justify-content: space-between;
+
+	}
+
+	&__navbar-li {
+		font-family: ProximaSemi;
+		font-size: 1.5rem;
+		text-transform: uppercase;
+	}
+
+
+}
+
+.
