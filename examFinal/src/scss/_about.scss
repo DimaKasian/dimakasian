@@ -1,0 +1,92 @@
+.about {
+	padding-top: 5%;
+	min-height: 655px;
+	background-color: $white-color;
+	
+	
+
+	&__us {
+		background: url($img-path + 'DeathtoStock_Wired8.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		min-height: 555px;
+		text-transform: uppercase;
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-family: 'ProximaSemi';
+		font-size: 2.25rem;
+		color: $white-color;
+	}
+	&__us * {
+		z-index: 10;
+	}
+
+	&__us::after {
+		content: "";
+		display: block;
+		position: absolute;
+		z-index: 0;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background-color: rgba($purpur,.3);
+	}
+
+
+	&__us::before {
+		content: "";
+		display: block;
+		position: absolute;
+		z-index: 2;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background-image: url("../img/Icon-AboutUs.png");
+		background-repeat: no-repeat;
+		background-position: 50% 30%;
+
+	}	
+
+	&__info {
+		min-height: 555px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	&__text {
+		font-family: 'PT sans';
+		font-size: 1.25rem;
+		color: $light-grey;
+
+	}
+	&__text:nth-child(2) {
+		margin-bottom: 15%;
+	}
+	
+
+	&__button {
+		border: 1px solid $light-grey;
+		background: none;
+		color: $light-grey;
+		font-size: 1.25rem;
+		font-style: italic;
+		padding: 5px 15px;
+		cursor: pointer;
+	}
+	&__button:hover {
+		color: $purpur;
+		border: 1px solid $purpur;
+	}
+
+}
+
+
+
+
+
+

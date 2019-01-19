@@ -1,0 +1,102 @@
+.services {
+	min-height: 900px;
+	background-color: $white-color;
+	padding-top: 5%;
+
+	.height {
+		min-height: 400px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		color: $dark-grey;
+		font-family: 'PT sans';
+		
+	}
+	.height > h2 {
+		font-weight: 700;
+		font-size: 1.5rem;
+	}	
+	.height > p {
+		font-style: italic;
+		font-size: 1.125rem;
+
+	}	
+
+
+	img {
+		width: 60px;
+		height: 60px;
+		margin-bottom: 10px;
+	}
+
+	
+
+	&__design {
+		background-color: $grey;
+		margin-right: -15px;
+	}
+	
+	&__mobile {
+		img {
+			width: 35px;
+			height: 60px;
+		}		
+		background-color: $grey;
+		margin-left: -15px;
+	}
+	
+	&__our {
+		min-height: 800px;
+		background-image: url($img-path + 'unsplash_523ae1f5502d6_1.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: relative;
+		z-index: 2;
+		display: flex;
+		flex-direction: column;
+		margin-left: -30px;
+		text-align: center;	
+		color: $white-color;
+		font-family: 'PT sans';
+	}
+
+	&__our::after{
+		content: "";
+		display: block;
+		position: absolute;
+		z-index: 0;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background-color: rgba($purpur,.3);
+	}
+
+	&__img {
+		padding-top: 30%;
+		margin-bottom: 5%;
+		position: relative;
+		z-index: 2;
+	}
+
+	&__h2 {
+
+		margin-bottom: 25%;
+		position: relative;
+		z-index: 2;
+		font-weight: 700;
+		font-size: 1.5rem;
+	}
+	
+	&__p {
+		position: relative;
+		z-index: 2;
+		font-style: italic;
+		font-size: 1.125rem;
+	}
+
+	
+}
+
