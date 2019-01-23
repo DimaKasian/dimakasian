@@ -1,18 +1,123 @@
 .our-team {
-	background-color: $white-color;
+	background-color: $grey;
+
+	&__wraper {
+		min-height: 820px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+
 
 	&__h4 {
+
 		text-align: center;
+		text-transform: uppercase;
+		font-family: 'ProximaSemi';
+		color: $light-grey;
+		letter-spacing: 2px;
+		position: relative;
+	}
+	
+	&__h4 > h4 {
+		font-size: 2.5rem;
+	}
+
+	&__h4::before {
+		@include overlay;
+		background-image: url($img-path + 'Icon-Team.png');
+		background-repeat: no-repeat;
+		background-position-x: 50%;
+		top: -80px;
 	}
 
 	&__center {
 		display: flex;
 		flex-direction: column;
-		text-align: center;
+		align-items: center;
+
+
+
+
 	}
 	
 	&__center > img {
 		width: 100%;
 		height: 100%;
+		max-width: 240px;
+		max-height: 240px;
+		border-radius: 50%;
+		border: 20px solid $grey;
+		position: absolute;
+		top: -120px;
+		
+		
 	}
-}
+
+	&__text {
+		min-height: 280px;
+		background-color: $white-color;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+
+
+	}
+	
+	&__name {
+		padding-top: 35%;
+		text-transform: uppercase;
+		color: $violet;
+		font-size: 1.5rem;
+		font-family: 'Proxima';
+		letter-spacing: 1.5px;
+		margin-bottom: 5%;
+
+	}
+
+
+	&__position {
+		font-family: 'PT sans';
+		font-style: italic;
+		font-size: 1.5rem;
+		color: $light-grey;
+		
+
+	}
+
+	&__links {
+		
+		background-color: $violet;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		min-height: 60px;
+
+	}
+	
+	&__links-a {
+		min-height: 40px;
+		min-width: 40px;
+		background-color: $white-color;
+		margin-right: .8rem;
+		border-radius:50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: $violet;
+	}
+	.links-a:last-child {
+		margin-right: none;
+	}
+	
+	&__links-a:hover {
+		color: $white-color;
+		background-color: $violet;
+	}
+	
+	
+	
+}	

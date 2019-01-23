@@ -17,15 +17,15 @@ a {
 
 	&:hover {
 		text-decoration: none;
-		color: $purpur;
+		color: $violet;
 	}
 }
 
 @font-face {
-	font-family: Proxima;
+	font-family: 'Proxima';
 	src: url("../fonts/Proxima Nova Condensed Bold.otf");
 }
 @font-face {
-	font-family: ProximaSemi;
+	font-family: 'ProximaSemi';
 	src: url("../fonts/Proxima Nova Condensed SemiBold.otf");
 }

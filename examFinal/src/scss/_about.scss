@@ -32,7 +32,7 @@
 		right: 0;
 		bottom: 0;
 		left: 0;
-		background-color: rgba($purpur,.3);
+		background-color: rgba($violet,.3);
 	}
 
 
@@ -79,8 +79,8 @@
 		cursor: pointer;
 	}
 	&__button:hover {
-		color: $purpur;
-		border: 1px solid $purpur;
+		color: $violet;
+		border: 1px solid $violet;
 	}
 
 }
