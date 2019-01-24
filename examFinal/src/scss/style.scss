@@ -7,16 +7,19 @@
 @import 'recent-work';
 @import 'our-team';
 @import 'footer';
+@import 'menu';
 
+body {
+	background-color: red;
+}
 
-
-//.footer,
+.footer,
 .our-team,
 .services,
-.about,
-.first-screen,
+//.about,
+//.first-screen,
 .recent-works,
-.menu
+//.menu
 {
 
 	display: none !important;
