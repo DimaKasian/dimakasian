@@ -47,28 +47,52 @@
 		justify-content: center;
 	}
 
-	&__title {
+	&__title > h1 {
 		text-transform: uppercase;
 		font-family: 'Proxima';
-		font-size: 4.5rem;
+		font-size: 2rem;
 		color: $white-color;
 		letter-spacing: 10px;
 		margin-bottom: 20px;
-		@include min992 {
-			color: red;
+
+		@include min576 {			
+			font-size: 2.5rem;
+
+		}
+		@include min992 {			
+			font-size: 3.5rem;
+
+		}
+		@include min1367 {
+			font-size: 4.5rem;
+
 		}
 
 		
 	}
-	
+
 
 	&__text {
 		font-family: 'PT Sans';
 		font-style: italic;
 		font-weight: 400;
-		font-size: 1.875rem;
+		font-size: 1.1rem;
 		color: $white-color;
 		letter-spacing: 2px;
+
+		@include min576 {			
+			font-size: 1.4rem;
+
+		}
+		@include min768 {			
+			font-size: 1.6rem;
+
+		}
+		@include min1367 {
+			font-size: 1.875rem;
+
+		}
+
 		
 	}
 }

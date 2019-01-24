@@ -1,8 +1,11 @@
 .about {
 	padding-top: 5rem;
-	min-height: 600px;
+	min-height: 450px;
 	background-color: $white-color;
-	
+
+	@include min576 {
+			min-height: 600px;
+		}
 	
 
 	&__us {
@@ -60,12 +63,17 @@
 
 	&__text {
 		font-family: 'PT sans';
-		font-size: 1.25rem;
+		font-size: 1rem;
 		color: $light-grey;
+
+		@include min768 {
+			font-size: 1.25rem;
+		}
 
 	}
 	&__text:nth-child(2) {
 		margin-bottom: 15%;
+
 	}
 	
 

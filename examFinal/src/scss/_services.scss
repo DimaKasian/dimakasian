@@ -35,7 +35,11 @@
 
 	&__design {
 		background-color: $grey;
-		margin-right: -15px;
+		
+
+		@include min576 {
+			margin-right: -15px;
+		}
 	}
 	
 	&__mobile {
@@ -44,11 +48,14 @@
 			height: 60px;
 		}		
 		background-color: $grey;
-		margin-left: -15px;
+		
+		@include min576 {
+			margin-left: -15px;
+		}
 	}
 	
 	&__our {
-		min-height: 800px;
+		min-height: 550px;
 		background-image: url($img-path + 'unsplash_523ae1f5502d6_1.png');
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -56,10 +63,14 @@
 		z-index: 2;
 		display: flex;
 		flex-direction: column;
-		margin-left: -30px;
 		text-align: center;	
 		color: $white-color;
 		font-family: 'PT sans';
+
+		@include min768 {
+			margin-left: -30px;
+			min-height: 800px;
+		}
 	}
 
 	&__our::after{
@@ -75,20 +86,28 @@
 	}
 
 	&__img {
-		padding-top: 30%;
+		padding-top: 20%;
 		margin-bottom: 5%;
 		position: relative;
 		z-index: 2;
+		@include min768 {
+			margin-bottom: 30%;
+		}
 	}
 
 	&__h2 {
 
-		margin-bottom: 25%;
+		margin-bottom: 15%;
 		position: relative;
 		z-index: 2;
 		font-weight: 700;
 		font-size: 1.5rem;
+
+		@include min768 {
+			margin-bottom: 25%;
+		}
 	}
+
 	
 	&__p {
 		position: relative;

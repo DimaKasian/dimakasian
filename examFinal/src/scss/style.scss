@@ -1,7 +1,7 @@
 @import 'variables';
 @import 'common';
-@import 'first-screen';
 @import 'mixins';
+@import 'first-screen';
 @import 'about';
 @import 'services';
 @import 'recent-work';
@@ -10,12 +10,11 @@
 
 
 
-.footer,
+//.footer,
 .our-team,
-.recent-work,
 .services,
 .about,
-//.first-screen,
+.first-screen,
 .recent-works,
 .menu
 {
