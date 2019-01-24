@@ -7,3 +7,19 @@
 @import 'recent-work';
 @import 'our-team';
 @import 'footer';
+
+
+
+.footer,
+.our-team,
+.recent-work,
+.services,
+.about,
+//.first-screen,
+.recent-works,
+.menu
+{
+
+	display: none !important;
+
+}

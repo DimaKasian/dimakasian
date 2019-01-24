@@ -1,3 +1,40 @@
 .footer {
 	min-height: 180px;
+	background-color: $violet;
+
+
+	&__links {
+		
+		background-color: $violet;
+		width: 100%;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+	
+
+	}
+
+	&__links > li {
+		margin-right: .8rem;
+	}
+	
+	&__links-a {
+		min-height: 40px;
+		min-width: 40px;
+		background-color: $white-color;
+		border-radius:50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: $violet;
+	}
+	.links-a:last-child {
+		margin-right: none;
+	}
+	
+	&__links-a:hover {
+		color: $white-color;
+		background-color: $violet;
+	}
+	
 }
