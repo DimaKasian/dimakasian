@@ -32,3 +32,9 @@ window.onscroll = () => {
 // 	map = new google.maps.Map(document.getElementById('map'), {zoom: 7, center: krem});
 // 	directionsDisplay.setMap(map);
 // }
+
+//Carousel
+
+//action on right button
+
+
