@@ -30,8 +30,15 @@
 			background-color: rgba($dark-grey, .5);
 			min-width: 150px;
 			position: absolute;
-			right: -80px;
+			right: 0px;
 			top: 56px;
+			@include min576 {
+				right: -39%;
+			}
+
+			@include min768 {
+				right: 0;
+			}
 			
 
 		}
