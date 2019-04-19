@@ -1,0 +1,13 @@
+.portfolio {
+    
+    &__content {
+        font-family: 'Bayshore';
+        font-size: 40px;
+        max-width: 293px;
+        width: 100%;
+        text-align: center;
+        background-image: url("../img/photo_1.jpg");
+        background-position: 50% 50%;
+        min-height: 630px;
+    }
+}

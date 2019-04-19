@@ -1,0 +1,21 @@
+@mixin decoration {
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    padding-top: 95px;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+@mixin p-decoration {
+    content: '';
+    border-top: 2px solid;
+    width: 88px;
+    display: inline-block;
+    position: relative;
+    top: -10px;
+
+}
+@font-face {
+    font-family: 'Bayshore';
+    src: url("../fonts/Bayshore.otf");
+    src: url("../fonts/Bayshore.ttf");
+}
