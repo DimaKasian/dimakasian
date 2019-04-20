@@ -55,8 +55,8 @@
         max-width: 150px;
         min-height: 46px;
         position: relative;
-        z-index: 1;
         cursor: pointer;
+  
     }
 
     &__btn:after {
@@ -65,10 +65,10 @@
         background-color: #fff;
         position: absolute;
         background-repeat: no-repeat;
-        position: absolute;
         top: 39px;
         bottom: -9px;
-        left: 52px;
+        left: 45%;
         right: 47px;
     }
+
 }

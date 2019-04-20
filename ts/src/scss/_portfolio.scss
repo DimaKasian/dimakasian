@@ -1,13 +1,112 @@
 .portfolio {
-    
+
     &__content {
         font-family: 'Bayshore';
         font-size: 40px;
         max-width: 293px;
         width: 100%;
         text-align: center;
+        min-height: 630px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        color: white;
+        font-size: 40px;
+    }
+
+    &__content:after {
+        content: "";
+        position: absolute;
+        background-image: url("../img/Button_Play1.png");
+        background-repeat: no-repeat;
+        top: 55%;
+        left: 39%;
+        right: 40%;
+        bottom: 35%;
+        cursor: pointer;
+    }
+
+    &__content:first-child {
         background-image: url("../img/photo_1.jpg");
         background-position: 50% 50%;
-        min-height: 630px;
     }
+
+
+    &__content:last-child {
+        background-image: url("../img/photo_4.jpg");
+        background-position: 50% 50%;
+
+    }
+
+
+    &__content:nth-child(2) {
+        background-image: url("../img/photo_2.jpg");
+        background-position: 50% 50%;
+    }
+
+
+    &__content:nth-child(3) {
+        background-image: url("../img/photo_3.jpg");
+        background-position: 50% 50%;
+    }
+
+    &__content:first-child:hover {
+        background-image: url("../img/photo_1.jpg");
+        background-position: 50% -120px;
+        background-repeat: no-repeat;
+        transition: all 0.5s ease 1s;
+    }
+
+    &__content:nth-child(2):hover {
+        background-image: url("../img/photo_2.jpg");
+        background-position: 50% 137%;
+        background-repeat: no-repeat;
+        transition: all 0.5s ease 1s;
+    }
+
+    &__content:nth-child(3):hover {
+        background-image: url("../img/photo_3.jpg");
+        background-position: 50% -121px;
+        background-repeat: no-repeat;
+        transition: all 0.5s ease 1s;
+    }
+
+    &__content:last-child:hover {
+        background-image: url("../img/photo_4.jpg");
+        background-position: 50% -120px;
+        background-repeat: no-repeat;
+        transition: all 0.5s ease 1s;
+    }
+
+    &__btn {
+        position: absolute;
+        bottom: 5%;
+        width: 150px;
+        height: 50px;
+        background: black;
+        opacity: 0;
+        border: none;
+        color: #fff;
+        font-size: 14px;
+        
+    }
+
+    &__btn:after {
+        content: "";
+        background-image: url("../img/red_heart.png");
+        position: absolute;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 43px;
+        bottom: -16px;
+        left: 68px;
+        right: 47px;
+    }
+    &__btn:hover {
+        cursor: pointer;
+        opacity: 1;
+        transition: all 0.5s ease 1s;
+    }
+
 }
